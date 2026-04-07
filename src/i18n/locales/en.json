@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Home",
+    "team": "Team",
+    "treatments": "Treatments",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "badge": "Certified Medical Aesthetics · Porto",
+    "title": "Your health, our priority",
+    "subtitle": "Trusted medical aesthetics in Porto, focused on enhancing your natural beauty in a secure, professional environment.",
+    "cta": "Explore Treatments",
+    "email": "Book via Email"
+  },
+  "team": {
+    "title": "Meet Our Medical Team",
+    "desc": "Our clinic is staffed by certified professionals with years of experience in clinical aesthetics.",
+    "roles": {
+      "doctor": "Lead Aesthetic Doctor",
+      "nurse": "Dermatology Nurse"
+    }
+  },
+  "treatments": {
+    "title": "Our Treatments",
+    "items": {
+      "1": { "name": "Facial Rejuvenation", "desc": "Advanced treatments to restore youthfulness and vitality to your skin." },
+      "2": { "name": "Laser Therapy", "desc": "State-of-the-art lasers for safe hair removal and skin clearing." },
+      "3": { "name": "Body Contouring", "desc": "Non-invasive procedures to help you achieve your desired silhouette." },
+      "4": { "name": "Skin Hydration", "desc": "Deep hydration and wellness boosters to improve texture and glow." }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "Are the treatments safe?",
+    "a1": "Yes, all our treatments are performed by registered medical professionals using proven and certified equipment.",
+    "q2": "Do I need a consultation first?",
+    "a2": "We recommend an initial consultation to assess your needs safely and tailor a specific plan to your goals.",
+    "q3": "How do I book?",
+    "a3": "You can request an appointment directly by sending us an email.",
+    "q4": "Where are you located?",
+    "a4": "We are located securely in the heart of Porto, easily accessible via public transportation and private car."
+  },
+  "cta": {
+    "title": "Ready to Start Your Journey?",
+    "desc": "Send us an email and our clinical team will get back to you with the nearest availability.",
+    "button": "Book Appointment via Email"
+  }
+}

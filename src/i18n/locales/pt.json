@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Home",
+    "team": "Equipa",
+    "treatments": "Tratamentos",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "badge": "Estética Médica Certificada · Porto",
+    "title": "A sua saúde, a nossa prioridade",
+    "subtitle": "Estética médica de confiança no Porto, focada em realçar a sua beleza natural num ambiente seguro e profissional.",
+    "cta": "Ver Tratamentos",
+    "email": "Marcar por Email"
+  },
+  "team": {
+    "title": "Conheça a Nossa Equipa Médica",
+    "desc": "A nossa clínica dispõe de profissionais certificados com anos de experiência em estética clínica.",
+    "roles": {
+      "doctor": "Médica Estética Principal",
+      "nurse": "Enfermeira de Dermatologia"
+    }
+  },
+  "treatments": {
+    "title": "Os Nossos Tratamentos",
+    "items": {
+      "1": { "name": "Rejuvenescimento Facial", "desc": "Tratamentos avançados para restaurar a juventude e vitalidade da sua pele." },
+      "2": { "name": "Terapia a Laser", "desc": "Lasers de última geração para depilação segura e limpeza da pele." },
+      "3": { "name": "Contorno Corporal", "desc": "Procedimentos não invasivos para ajudá-la a alcançar a silhueta desejada." },
+      "4": { "name": "Hidratação da Pele", "desc": "Hidratação profunda e boosters de bem-estar para melhorar a textura e brilho." }
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "q1": "Os tratamentos são seguros?",
+    "a1": "Sim, todos os nossos tratamentos são realizados por profissionais médicos registados usando equipamentos comprovados e certificados.",
+    "q2": "Preciso de uma consulta primeiro?",
+    "a2": "Recomendamos uma consulta inicial para avaliar as suas necessidades com segurança e adaptar um plano aos seus objetivos.",
+    "q3": "Como posso marcar?",
+    "a3": "Pode solicitar uma marcação diretamente enviando-nos um email.",
+    "q4": "Onde estão localizados?",
+    "a4": "Estamos localizados no coração do Porto, facilmente acessíveis por transportes públicos e automóvel."
+  },
+  "cta": {
+    "title": "Pronta Para Iniciar a Sua Jornada?",
+    "desc": "Envie-nos um email e a nossa equipa clínica entrará em contacto com a disponibilidade mais próxima.",
+    "button": "Marcar Consulta por Email"
+  }
+}

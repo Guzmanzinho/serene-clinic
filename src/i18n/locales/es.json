@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "team": "Equipo",
+    "treatments": "Tratamientos",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "badge": "Estética Médica Certificada · Oporto",
+    "title": "Su salud, nuestra prioridad",
+    "subtitle": "Estética médica de confianza en Oporto, enfocada en realzar su belleza natural en un entorno seguro y profesional.",
+    "cta": "Ver Tratamientos",
+    "email": "Reservar por Email"
+  },
+  "team": {
+    "title": "Conozca a Nuestro Equipo Médico",
+    "desc": "Nuestra clínica cuenta con profesionales certificados con años de experiencia en estética clínica.",
+    "roles": {
+      "doctor": "Médica Estética Principal",
+      "nurse": "Enfermera de Dermatología"
+    }
+  },
+  "treatments": {
+    "title": "Nuestros Tratamientos",
+    "items": {
+      "1": { "name": "Rejuvenecimiento Facial", "desc": "Tratamientos avanzados para restaurar la juventud y vitalidad de su piel." },
+      "2": { "name": "Terapia Láser", "desc": "Láseres de última generación para depilación segura y limpieza de la piel." },
+      "3": { "name": "Contorno Corporal", "desc": "Procedimientos no invasivos para ayudarla a alcanzar la silueta deseada." },
+      "4": { "name": "Hidratación de la Piel", "desc": "Hidratación profunda y potenciadores de bienestar para mejorar la textura y luminosidad." }
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "q1": "¿Son seguros los tratamientos?",
+    "a1": "Sí, todos nuestros tratamientos son realizados por profesionales médicos registrados utilizando equipos probados y certificados.",
+    "q2": "¿Necesito una consulta primero?",
+    "a2": "Recomendamos una consulta inicial para evaluar sus necesidades de forma segura y adaptar un plan específico a sus objetivos.",
+    "q3": "¿Cómo puedo reservar?",
+    "a3": "Puede solicitar una cita directamente enviándonos un correo electrónico.",
+    "q4": "¿Dónde están ubicados?",
+    "a4": "Estamos ubicados en el corazón de Oporto, fácilmente accesibles en transporte público y vehículo privado."
+  },
+  "cta": {
+    "title": "¿Lista para Iniciar su Viaje?",
+    "desc": "Envíenos un correo electrónico y nuestro equipo clínico se pondrá en contacto con la disponibilidad más cercana.",
+    "button": "Reservar Cita por Correo Electrónico"
+  }
+}
