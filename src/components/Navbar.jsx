@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Menu, X, Globe } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logoUrl from '../assets/serene_clinic-logo.png';
 
 export default function Navbar() {
   const { t, i18n } = useTranslation();
@@ -35,8 +36,8 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <div className="flex-shrink-0">
-            <img src="/vite.svg" alt="Serene Clinic Logo" className="h-8 w-auto block object-contain" />
+          <div className="flex-shrink-0 flex items-center h-12 md:h-16">
+            <img src={logoUrl} alt="Serene Clinic Logo" className="h-full w-auto block object-contain scale-150 md:scale-[2] origin-left" />
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

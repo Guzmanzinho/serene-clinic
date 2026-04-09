@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import { useRef } from 'react';
 import { ArrowRight, Mail } from 'lucide-react';
 
 const MOSAIC_IMAGES = [
@@ -46,12 +47,37 @@ const mosaicVariants = {
 
 export default function Hero() {
   const { t } = useTranslation();
+  const sectionRef = useRef(null);
+
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ['start start', 'end start'],
+  });
+
+  // Small range so it feels subtle on mobile
+  const bgY = useTransform(scrollYProgress, [0, 1], ['0%', '18%']);
 
   return (
     <section
+      ref={sectionRef}
       id="home"
       className="relative min-h-screen flex items-center overflow-hidden bg-primary-bg"
     >
+      {/* Mobile-only background image with parallax */}
+      <motion.div
+        className="absolute inset-0 lg:hidden z-0"
+        style={{ y: bgY, willChange: 'transform' }}
+        aria-hidden="true"
+      >
+        <img
+          src={MOSAIC_IMAGES[2].src}
+          alt=""
+          className="w-full h-full object-cover opacity-[0.20]"
+        />
+        {/* Gradient overlay so text stays readable */}
+        <div className="absolute inset-0 bg-gradient-to-b from-primary-bg/60 via-transparent to-primary-bg/80" />
+      </motion.div>
+
       {/* Decorative concentric rings — top-right, partially clipped */}
       <div
         className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/3 w-[680px] h-[680px] pointer-events-none"
